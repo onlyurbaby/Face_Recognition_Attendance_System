@@ -1,0 +1,8 @@
+*Steps for Making this system*
+1. create folders like Attendance, trainer, dataset, datacollector, trainedmodels, GUI, Recognizer, harcascade.
+2. download harcascade file which i have provided in the repo.
+3. run the data_collector.py and collect the dataset and create your own dataset for your model.
+4. once the dataset is created, then run trainer.py and train the model for the dataset. it will provide you with labels and trainer.ynl file in trainermodels folder.
+5. then run the recognizer.py and recognize the face you have in the camera.
+6. add it into csv file of attendance.
+7. create GUI for the system from main_gui.py then you will get the interface for the system.
